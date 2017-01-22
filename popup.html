@@ -6,7 +6,7 @@
 
 <style>
 	body {
-		background: url('lamps.jpeg');
+		background: url('dusk.png');
 		background-size: 400px;
 		color: black;
 		height: 480px;
@@ -55,9 +55,17 @@
 			<img src="logo.png">
 			<h3>End online harassment in its tracks</h3>
 		</div>
-	<!-- 	<hr> -->
 		<div class="options">
-			<p>Insert Options here</p>
+			<p>I don't want to see...</p>
+			<form action="demo_form.asp" method="get">
+  				<input type="checkbox" name="category" value="racist" id="racist"> Racist comments<br>
+  				<input type="checkbox" name="category" value="sexist" id="sexist"> Sexist comments<br>
+  				<input type="checkbox" name="category" value="homophobic" id="homophobic"> Homophobic comments<br>
+  				<input type="checkbox" name="category" value="profanity" id="profanity"> Profanity <br>
+  				<input type="checkbox" name="category" value="other" id="other"> Other:
+  				<input type="text" name="search"> <br><br>
+  				<input type="submit" value="Submit">
+			</form>
 		</div>
 	</div>
 
