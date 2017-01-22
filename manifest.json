@@ -1,17 +1,13 @@
 {
   "manifest_version": 2,
  
-  "name": "MAXimize",
-  "icons": {"16": "icon16.png",
-            "128": "icon128.png"
-  },
+  "name": "Hack Harrassment",
   "version": "0.1.0",
-  "description": "A browser extension that transforms all the images you see into photos of Max Nikias.",
+  "description": "Censor undesirable content from ",
 
   	"browser_action": {
-	"default_icon": "icon16.png",
 	"default_popup": "popup.html",
-	"default_title": "MAXimize"
+	"default_title": "Hack Harrassment"
 	},
  
   "content_scripts": [{
