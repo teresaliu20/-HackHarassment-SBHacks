@@ -1,18 +1,18 @@
 {
   "manifest_version": 2,
  
-  "name": "HackHarassment",
+  "name": "HackTube",
   "icons": {"16": "icon_16.png",
             "48" : "icon_48.png",
             "128": "icon_128.png"
   },
   "version": "0.1.0",
-  "description": "",
+  "description": "A Chrome extension that censors content you don't want to see.",
 
   "browser_action": {
 	"default_icon": "icon_16.png",
 	"default_popup": "popup.html",
-	"default_title": "HackHarassment"
+	"default_title": "HackTube"
 	},
  
   "content_scripts": [{
