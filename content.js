@@ -90,4 +90,4 @@ setInterval(function() {
 	if(numCensored != 0) {
 		document.title = "CENSORED: " + numCensored;
 	}
-}, 2000);
+}, 250);
