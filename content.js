@@ -65,5 +65,7 @@ setInterval(function(){
 			numCensored++;
 		}
 	}
-	document.title = "CENSORED: " + numCensored;
+	if(numCensored != 0) {
+		document.title = "CENSORED: " + numCensored;
+	}
 }, 2000);
