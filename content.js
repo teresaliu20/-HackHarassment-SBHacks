@@ -1,5 +1,8 @@
 var comments;
-var buzzword = "is";
+var racism = ["nigg", "chink", "redneck", "gypsy", "redskin"];
+var profanity = ["fuck", "ass", "shit", "bastard", "cunt", "dick", "crap", "bitch", "whore", "slut"];
+var homophobia = ["fag", "dyke", "transvestite", "tranny", "sodomite", "homo"];
+var sexism = ["feminazi", "femenazi", "bitch", "slut", "cunt", "whore"]
 
 setTimeout(function(){
 	comments = document.getElementsByClassName("comment-renderer-text-content");
@@ -9,4 +12,4 @@ setTimeout(function(){
 			comments[i].style = "color: #CE0D00; font-weight: bold";
 		}
 	}
-}, 10000);
+}, 5000);
