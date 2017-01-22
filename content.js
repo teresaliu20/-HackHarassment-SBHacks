@@ -27,13 +27,11 @@ var homophobia = ["fag", "dyke", "transvestite", "tranny", "sodomite", "homo"];
 var sexism = ["feminazi", "femenazi", "bitch", "slut", "cunt", "whore", "hoe"];
 var violence = ["kill", "death", "blood", "flesh", "gore"];
 
-rBool = 0;
-pBool = 0;
-hBool = 0;
-sBool = 0;
-vBool = 0;
-
-document.cookie = "new=Melissa%Rocks";
+rBool = 1;
+pBool = 1;
+hBool = 1;
+sBool = 1;
+vBool = 1;
 
 setInterval(function() {
 	comments = document.getElementsByClassName("comment-renderer-text-content");

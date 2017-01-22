@@ -20,7 +20,3 @@ function getCookie(cname) {
     }
     return "";
 }
-
-document.getElementById('submitButton').addEventListener('click', function() {
-    alert(document.cookie);
-});
