@@ -6,10 +6,11 @@
 
 <style>
 	body {
-		background-color: white;
+		background: url('lamps.jpeg');
+		background-size: 400px;
 		color: black;
-		height: 250px;
-		width: 300px;
+		height: 480px;
+		width: 320px;
 		text-align: center;
 		padding: 5px;
 		font-family: Avenir Next Condensed, serif;
@@ -18,22 +19,46 @@
 		height:70px;
 		margin-top: 10px;
 	}
-	.box {
+
+	.top {
+		color: black;
 		padding: 6px 15px;
 		border-width: 2px;
+		margin: 10px 10px 0 10px;
+		background-color: rgba(255,255,255,.9);
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+	.options {
+		color: black;
+		padding: 6px 15px;
+		border-width: 2px;
+		margin: 0 10px 10px 10px;
+		background-color: rgba(255,255,255,.8);
+		height: 300px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
 	}
 	p {
 		font-size: 20px;
+	}
+	hr {
+		width: 298px;
+		text-shadow: none;
 	}
 
 </style>
 
 <body>
 	<div class="box">
-		<img src="logo.png">
-		<h3>End online harassment in its tracks</h3>
-		<hr>
-		<p>Insert Options here</p>
+		<div class="top">
+			<img src="logo.png">
+			<h3>End online harassment in its tracks</h3>
+		</div>
+	<!-- 	<hr> -->
+		<div class="options">
+			<p>Insert Options here</p>
+		</div>
 	</div>
 
 
