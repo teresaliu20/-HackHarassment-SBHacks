@@ -1,19 +1,24 @@
 {
   "manifest_version": 2,
  
-  "name": "Hack Harrassment",
+  "name": "HackHarassment",
+  "icons": {"16": "icon_16.png",
+            "48" : "icon_48.png",
+            "128": "icon_128.png"
+  },
   "version": "0.1.0",
-  "description": "Censor undesirable content from ",
+  "description": "",
 
-  	"browser_action": {
+  "browser_action": {
+	"default_icon": "icon_16.png",
 	"default_popup": "popup.html",
-	"default_title": "Hack Harrassment"
+	"default_title": "HackHarassment"
 	},
  
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://*/*", "http://*/*"]
+    "matches": ["https://youtube.com/*"]
   }]
  
 }
