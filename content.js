@@ -1,17 +1,41 @@
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
 var comments, rBool, pBool, hBool, sBool, vBool;
 var racism = ["nigg", "chink", "redneck", "gypsy", "redskin"];
-var profanity = ["fuck", "ass", "shit", "bastard", "cunt", "dick", "crap", "bitch", "whore", "slut", "hoe", "retard", "inbred"];
+var profanity = ["fuck", "ass", "shit", "bastard", "cunt", "dick", "crap", "bitch", "whore", "slut", "hoe", "hell", "retard", "inbred"];
 var homophobia = ["fag", "dyke", "transvestite", "tranny", "sodomite", "homo"];
 var sexism = ["feminazi", "femenazi", "bitch", "slut", "cunt", "whore", "hoe"];
 var violence = ["kill", "death", "blood", "flesh", "gore"];
 
-rBool = 1;
-pBool = 1;
-hBool = 1;
-sBool = 1;
-vBool = 1;
+rBool = 0;
+pBool = 0;
+hBool = 0;
+sBool = 0;
+vBool = 0;
 
-setInterval(function(){
+document.cookie = "new=Melissa%Rocks";
+
+setInterval(function() {
 	comments = document.getElementsByClassName("comment-renderer-text-content");
 	var numCensored = 0;
 	for(var i = 0; i < comments.length; i++) {
