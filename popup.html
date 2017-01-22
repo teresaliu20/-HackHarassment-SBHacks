@@ -5,11 +5,15 @@
 </head>
 
 <style>
+	@font-face {
+		font-family: Avenir Next Condensed;
+		src:url(Avenir Next Condensed.ttc);
+	}
 	body {
 		background: url('grad.png');
 		background-size: 400px;
 		color: black;
-		height: 480px;
+		height: 470px;
 		width: 320px;
 		text-align: center;
 		padding: 5px;
@@ -24,7 +28,7 @@
 		color: black;
 		padding: 6px 15px;
 		border-width: 2px;
-		margin: 10px 10px 0 10px;
+		margin: 6px 6px 0 6px;
 		background-color: rgba(255,255,255,.9);
 		border-top-right-radius: 5px;
 		border-top-left-radius: 5px;
@@ -33,19 +37,53 @@
 		color: black;
 		padding: 6px 15px;
 		border-width: 2px;
-		margin: 0 10px 10px 10px;
+		margin: 0 6px 6px 6px;
 		background-color: rgba(255,255,255,.8);
 		height: 300px;
 		border-bottom-right-radius: 5px;
 		border-bottom-left-radius: 5px;
 	}
 	p {
-		font-size: 20px;
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 16px;
 	}
 	hr {
 		width: 298px;
 		text-shadow: none;
 	}
+	form {
+		text-align: left;
+		padding: 0 40px;
+	}
+	#submitButton {
+		margin-left: 65px;
+		border: none;
+	    background-color: #9D040E;
+	    color: white;
+	    padding: 5px 15px 5px 15px;
+	    margin-top: 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    border-radius: 4px;
+	    -webkit-transition: all 0.5s ease-in-out;
+	}
+	#submitButton:hover {
+		background-color: black;
+		color: white;
+	}
+	form {
+		font-size: 16px;
+	}
+	#otherInput {
+		margin-left: 20px;
+		width: 155px;
+		margin-top:3px;
+	}
+
 
 </style>
 
@@ -56,15 +94,15 @@
 			<h3>End online harassment in its tracks</h3>
 		</div>
 		<div class="options">
-			<p>I don't want to see...</p>
+			<h1>I don't want to see...</h1>
 			<form action="demo_form.asp" method="get">
   				<input type="checkbox" name="category" value="racist" id="racist"> Racist comments<br>
   				<input type="checkbox" name="category" value="sexist" id="sexist"> Sexist comments<br>
   				<input type="checkbox" name="category" value="homophobic" id="homophobic"> Homophobic comments<br>
   				<input type="checkbox" name="category" value="profanity" id="profanity"> Profanity <br>
-  				<input type="checkbox" name="category" value="other" id="other"> Other:
-  				<input type="text" name="search"> <br><br>
-  				<input type="submit" value="Submit">
+  				<input type="checkbox" name="category" value="other" id="other"> Enter other: <br>
+  				<input id="otherInput" type="text" name="search"> <br><br>
+  				<input id="submitButton" type="submit" value="Submit">
 			</form>
 		</div>
 	</div>
