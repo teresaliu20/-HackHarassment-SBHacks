@@ -11,7 +11,7 @@ HackTube monitors the YouTube comment section by finding racist, homophobic, and
 YouTube is a place for millions of people to share their voices and engage with their communities. Unfortunately, the YouTube comments section is notorious for enabling anonymous users to post hateful and derogatory messages with the click of a button. These messages are purely meant to cause anger and depression without ever providing any constructive criticism. For YouTubers, this means seeing the degrading and mentally-harmful comments on their content, and for the YouTube community, this means reading negative and offensive comments on their favorite videos. As young adults who consume this online content, we feel as though it is necessary to have a tool that combats these comments to make YouTube a safer place.
 
 ## Installation
-1. Clone this repository and unzip the folder
+1. Clone or download this repository into a folder
 2. Go to chrome://extensions/
 3. Check the box "Developer mode"
 4. Click "Load unpacked extension.." and select the folder
