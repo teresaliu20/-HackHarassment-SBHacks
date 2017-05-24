@@ -1,7 +1,7 @@
 # HackTube
+### Winner of 2nd Place Overall and MLH's Hack Harassment challenge 
 A Chrome extension that fights online harassment found commonly within the YouTube comment section.
-**Created at SBHacks 2-17 at UC Santa Barbara**  
-**Winner of 2nd Place Overall and MLH's Hack Harassment challenge**   
+**Created at SBHacks 2-17 at UC Santa Barbara**   
 **Devpost:** [Read more about our project here](https://devpost.com/software/hacktube)  
 
 ## About
