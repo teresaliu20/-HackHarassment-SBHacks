@@ -1,8 +1,8 @@
 # HackTube
 ### Winner of 2nd Place Overall and MLH's Hack Harassment challenge 
-A Chrome extension that fights online harassment found commonly within the YouTube comment section.
-**Created at SBHacks 2-17 at UC Santa Barbara**   
-**Devpost:** [Read more about our project here](https://devpost.com/software/hacktube)  
+A Chrome extension that fights online harassment found commonly within the YouTube comment section.  
+**Created at SBHacks 2-17 at UC Santa Barbara**     
+**Devpost:** [Read more about our project here](https://devpost.com/software/hacktube)    
 
 ## About
 HackTube monitors the YouTube comment section by finding racist, homophobic, and sexist words and automatically flagging comments containing those words by editing the source code of the webpage. With our extension enabled, Users are always left with a comment section free of hate and malicious words. It is a simple Chrome extension that makes YouTube a safer environment for users.
