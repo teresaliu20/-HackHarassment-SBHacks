@@ -26,6 +26,8 @@ YouTube is a place for millions of people to share their voices and engage with 
 - [Nishir Shelat](http://nishirshelat.com/)
 - [Melissa Wen](https://github.com/melissajwen)
 
+## Images
+
 ![gallery 2](https://cloud.githubusercontent.com/assets/22362476/26425955/b3268c30-40a4-11e7-8522-b0d3b9385a4e.jpg)
 ![gallery 1](https://cloud.githubusercontent.com/assets/22362476/26425933/9ea78d0e-40a4-11e7-991f-f00e65d6b3f4.jpg)
 ![gallery](https://cloud.githubusercontent.com/assets/22362476/26425934/9eb16496-40a4-11e7-898a-8995dc98d279.jpg)
